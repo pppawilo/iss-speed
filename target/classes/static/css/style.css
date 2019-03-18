@@ -1,0 +1,43 @@
+body {
+	background-image: url('space-walk-991_1920.jpg'); /* NASA Public Domain */
+  	background-repeat: no-repeat;
+  	background-attachment: fixed;
+  	background-position: center; 
+}
+
+h1 {
+	color: white;
+	font-size:500%;
+	text-shadow: 5px 5px #000;
+}
+
+div {
+    float: left; 
+    width: 50%
+    
+}
+
+table {
+	font-size:200%;
+	background: rgba(255, 255, 255, 0.8);
+}
+
+td { 
+    padding: 10px;
+}
+
+
+a:link {
+  color: black;
+}
+
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+	color:blue;
+}
+
+
