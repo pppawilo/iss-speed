@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>ISS Speed - intive Patronage 2019</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link href="../static/css/style.css" th:href="@{/css/style.css}" rel="stylesheet" />
+</head>
+<body>
+    <div>
+    	<p>
+    		<h1>ISS Speed</h1>
+				<table>
+				  <tr>
+				    <td>Obecna prędkość:</td>
+				    <td><span data-th-text="${currentIssSpeed}">Current Iss Speed</span> metrów na sekundę</td> 
+				  </tr>
+				  <tr>
+				  	<td>Obliczona na podstawie dwóch odczytów:</td>
+				  	<td>(<span data-th-text="${issSpacetimeCoordinates1}">coordinates1</span>) i 
+				  	(<span data-th-text="${issSpacetimeCoordinates2}">coordinates2</span>)</td>
+				  </tr>
+				  <tr>
+				  	<td>Odległość przebyta od początku odczytów:</td>
+				  	<td><span data-th-text="${distanceFromBeginning}">distance</span> metrów</td>
+				  </tr>
+				  <tr>
+				  	<td>Współrzędne pierwszego odczytu:</td>
+				  	<td>(<span data-th-text="${issSpacetimeInSesssionCoordinates}">sessioncoordinates</span>)</td>
+				  </tr>
+				  <tr>
+				  	<td>Data pierwszego odczytu:</td>
+				  	<td><span data-th-text="${dateSavedInSession}">sessiondate</span></td>
+				  </tr>
+				  <tr>
+				  	<td><a href="/clear">Wyczyść zapisane odczyty</a></td>
+				  	<td> </td>
+				  </tr>
+				  <tr>
+				  <td><a href="/">Odśwież stronę</a></td>
+				  <td> </td>
+				  </tr>
+				  
+				</table>
+    	</p>
+   	 	<p></p>
+		<p></p>
+    </div>
+	
+	
+	
+	
+</body>
+</html>
