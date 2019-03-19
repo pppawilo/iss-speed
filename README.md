@@ -15,6 +15,6 @@ Użyte technologie:
 
 # Screenshot:
 
-<img alt="iss speed webapp screenshot" src="img/iss_speed_screenshot.png" width="95%">
+[<img alt="iss speed webapp screenshot" src="img/iss_speed_screenshot.png" width="95%">](https://pawilojc.pl/iss-speed "ISS Speed live demo")
 
 # [Live Demo: https://pawilojc.pl/iss-speed](https://pawilojc.pl/iss-speed "ISS Speed live demo")
